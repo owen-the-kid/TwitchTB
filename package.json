@@ -5,7 +5,7 @@
     "description": "Twitch app with adblocker",
     "packageType": "mods",
     "websiteURL": "https://hisense.tv.twitch.tv",
-    "main": "dist/userScript.js",
+    "main": "scripts/userScript.js",
     "author": "Owen The Kid",
     "keys": [
       "MediaPlayPause",
