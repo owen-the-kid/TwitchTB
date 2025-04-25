@@ -12,11 +12,6 @@ Twitch with adblocker for tizenbrew
 * Adblocker
 * Thats all...
 
-## Screenshots
-
-![screenshot1](https://user-images.githubusercontent.com/13004175/54634183-5b6d6c80-4a4d-11e9-8e4e-0cfcf4f7c0f6.png)
-![screenshot2](https://user-images.githubusercontent.com/13004175/54634184-5c3a6f00-4a4d-11e9-92cb-3a6a7f9ae8c5.png)
-
 ## License
 
 This project is licensed under the [GPL-3.0-only License](https://github.com/OwenTheKid/TwitchTB/blob/master/LICENSE).
