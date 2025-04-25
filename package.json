@@ -1,24 +1,24 @@
 {
-    "name": "@owen-the-kid/TwitchTB",
-    "appName": "TwitchTB",
-    "version": "1.0.0",
-    "description": "Twitch app with adblocker",
-    "packageType": "mods",
-    "websiteURL": "https://hisense.tv.twitch.tv",
-    "main": "scripts/userScript.js",
-    "author": "Owen The Kid",
-    "keys": [
-      "MediaPlayPause",
-      "MediaPlay",
-      "MediaPause",
-      "MediaStop",
-      "MediaFastForward",
-      "MediaRewind",
-      "MediaTrackNext",
-      "MediaTrackPrevious"
-    ],
-    "repository": {
-      "url": "https://github.com/OwenTheKid/TwitchTB",
-    },
-    "license": "GPL-3.0-only"
-  }
+  "name": "@owen-the-kid/TwitchTB",
+  "appName": "TwitchTB",
+  "version": "1.0.0",
+  "description": "Twitch app with adblocker",
+  "packageType": "mods",
+  "websiteURL": "https://hisense.tv.twitch.tv",
+  "main": "scripts/userScript.js",
+  "author": "Owen The Kid",
+  "keys": [
+    "MediaPlayPause",
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop",
+    "MediaFastForward",
+    "MediaRewind",
+    "MediaTrackNext",
+    "MediaTrackPrevious"
+  ],
+  "repository": {
+    "url": "https://github.com/OwenTheKid/TwitchTB"
+  },
+  "license": "GPL-3.0-only"
+}
