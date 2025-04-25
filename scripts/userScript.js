@@ -13,3 +13,8 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+var script = document.createElement('script');
+script.src = 'https://github.com/pixeltris/TwitchAdSolutions/raw/refs/heads/master/vaft/vaft.user.js';
+script.type = 'text/javascript';
+document.head.appendChild(script);
+
