@@ -1,4 +1,15 @@
-const script = document.createElement('script');
-script.src = 'https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/0b5ea5ed8959a6b4eb4c1ea406aaa56313c9c907/vaft/vaft-ublock-origin.js';
-document.head.appendChild(script);
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Back') {
+        // Emulate the ESC key
+        var escEvent = new KeyboardEvent('keydown', {
+            key: 'Escape',
+            code: 'Escape',
+            keyCode: 27, // Deprecated, but some old browsers might still require it
+            which: 27, // Deprecated, but some old browsers might still require it
+            bubbles: true,
+            cancelable: true
+        });
+        document.dispatchEvent(escEvent);
+    }
+});
 
