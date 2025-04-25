@@ -1,7 +1,6 @@
 # TwitchTB
 Twitch with adblocker for tizenbrew
 
-[![GitHub release](https://img.shields.io/github/release/OwenTheKid/TwitchTB.svg)](https://github.com/OwenTheKid/TwitchTB/releases)
 [![GitHub issues](https://img.shields.io/github/issues/OwenTheKid/TwitchTB.svg)](https://github.com/OwenTheKid/TwitchTB/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/OwenTheKid/TwitchTB.svg)](https://github.com/OwenTheKid/TwitchTB/commits)
 [![GitHub stars](https://img.shields.io/github/stars/OwenTheKid/TwitchTB.svg)](https://github.com/OwenTheKid/TwitchTB)
