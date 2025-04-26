@@ -1,3 +1,7 @@
+import { FiltersEngine } from '@ghostery/adblocker';
+const engine = FiltersEngine.parse(fs.readFileSync('easylist.txt', 'utf-8'));
+//Ghostery adblocker
+
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Back') {
         // Emulate the ESC key
@@ -13,8 +17,4 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
-var script = document.createElement('script');
-script.src = 'https://github.com/pixeltris/TwitchAdSolutions/raw/refs/heads/master/vaft/vaft.user.js';
-script.type = 'text/javascript';
-document.head.appendChild(script);
 
