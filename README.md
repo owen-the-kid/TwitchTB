@@ -8,7 +8,7 @@ Twitch with adblocker for tizenbrew
 
 ## Features
 
-* Adblocker
+* Adblocker Powered by Ghostery
 * Thats all...
 
 ## License
