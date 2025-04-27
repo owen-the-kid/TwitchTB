@@ -18,7 +18,7 @@ Twitch with adblocker for tizenbrew
 
 ##Something to report
 
-open a issue on the GitHub or send me a message in the Tizenbrew Server or DM me on discord at '''theupsidedownshaggy''' 
+open a issue on the GitHub or send me a message in the Tizenbrew Server or DM me on discord at theupsidedownshaggy 
 
 ## License
 
