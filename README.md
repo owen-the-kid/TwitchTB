@@ -11,6 +11,15 @@ Twitch with adblocker for tizenbrew
 * Adblocker Powered by Ghostery
 * Thats all...
 
+## To Do
+
+* Add BetterTTV and others for 3rd party emotes
+* fix accepting cookie at every launch
+
+##Something to report
+
+open a issue on the GitHub or send me a message in the Tizenbrew Server or DM me on discord at '''theupsidedownshaggy''' 
+
 ## License
 
 This project is licensed under the [GPL-3.0-only License](https://github.com/owen-the-kid/TwitchTB/blob/master/LICENSE).
