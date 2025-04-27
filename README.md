@@ -16,7 +16,7 @@ Twitch with adblocker for tizenbrew
 * Add BetterTTV and others for 3rd party emotes
 * fix accepting cookie at every launch
 
-##Something to report
+## Something to report
 
 open a issue on the GitHub or send me a message in the Tizenbrew Server or DM me on discord at theupsidedownshaggy 
 
