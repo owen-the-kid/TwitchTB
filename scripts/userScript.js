@@ -1,7 +1,5 @@
 import { FiltersEngine } from '@ghostery/adblocker';
-engine = await FiltersEngine.fromLists(fetch, [
- 'https://easylist.to/easylist/easylist.txt'
-]);
+engine = await FiltersEngine.fromPrebuiltAdsAndTracking(fetch);
 //code above blocks ads and is powered by ghostery
 // ESC Key emualtion for back button
 document.addEventListener('back', (event) => {
