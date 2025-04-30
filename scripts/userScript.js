@@ -23,3 +23,9 @@ document.addEventListener('back', (event) => {
   }
 });
 
+//BetterTTV emotes
+import BetterTTV from "betterttv";
+
+BetterTTV.getGlobalEmotes()
+    .then(console.log);
+// Returns Emote[],
