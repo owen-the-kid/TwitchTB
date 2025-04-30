@@ -1,7 +1,7 @@
 {
   "name": "@owen-the-kid/twitchtb",
   "appName": "TwitchTB",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Twitch app with adblocker",
   "packageType": "mods",
   "websiteURL": "https://hisense.tv.twitch.tv",
