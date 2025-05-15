@@ -3,11 +3,7 @@
 const { StaticNetFilteringEngine } = require('@gorhill/ubo-core');
 
 const blocklistText = `
-||video-edge-*.ttvnw.net/v1/segment/*$media
-||video-edge-d55370.ams02.abs.hls.ttvnw.net/v1/segment/*$media
-||gql.twitch.tv/gql$xmlhttprequest,domain=twitch.tv,important
-||countess.twitch.tv/countess/batch^$domain=twitch.tv,important
-||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=twitch.tv,important
+||edge.ads.twitch.tv^
 `;
 
 const snfe = await StaticNetFilteringEngine.create();
