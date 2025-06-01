@@ -2,9 +2,9 @@
 
 const { StaticNetFilteringEngine } = require('@gorhill/ubo-core');
 
-const blocklistText = `
-||edge.ads.twitch.tv^
-`;
+const userResourcesLocation = 'https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/video-swap-new/video-swap-new-ublock-origin.js';
+const response = await fetch(userResourcesLocation);
+const blocklistText = await response.text();
 
 const snfe = await StaticNetFilteringEngine.create();
 await snfe.useLists([ { raw: blocklistText } ]);
