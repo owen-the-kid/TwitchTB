@@ -2,7 +2,7 @@
 
 const { StaticNetFilteringEngine } = require('@gorhill/ubo-core');
 
-const userResourcesLocation = 'https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/video-swap-new/video-swap-new-ublock-origin.js';
+const userResourcesLocation = 'https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/0b5ea5ed8959a6b4eb4c1ea406aaa56313c9c907/vaft/vaft-ublock-origin.js';
 const response = await fetch(userResourcesLocation);
 const blocklistText = await response.text();
 
