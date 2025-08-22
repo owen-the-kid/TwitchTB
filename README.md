@@ -8,7 +8,7 @@ Twitch with adblocker for tizenbrew
 
 ## About
 This is a port of the LG version made by [adamff-dev](https://github.com/adamff-dev/)
-and my old code will still be a project for myself to play around with and soon enough you will see TwitchTB-Legacy.
+and my old code will still be a project for myself to play around with and its available on [TwitchTB-Legacy](https://github.com/owen-the-kid/TwitchTB-Legacy).
 
 
 ## Features
