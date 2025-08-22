@@ -17,7 +17,15 @@
     "MediaTrackNext",
     "MediaTrackPrevious"
   ],
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.24.4",
+    "core-js-pure": "^3.36.1",
+    "regenerator-runtime": "^0.14.1",
+    "tiny-sha256": "^1.0.2",
+    "whatwg-fetch": "^3.6.20"
+  },
   "repository": {
     "url": "https://github.com/owen-the-kid/TwitchTB"
   }
 }
+
