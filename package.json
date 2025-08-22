@@ -1,11 +1,11 @@
 {
   "name": "@owen-the-kid/twitchtb",
   "appName": "TwitchTB",
-  "version": "1.1.6",
-  "description": "Twitch app with adblocker",
+  "version": "2.0.0",
+  "description": "Twitch app with adblocker (original code by @adamff-dev)",
   "packageType": "mods",
-  "websiteURL": "https://hisense.tv.twitch.tv",
-  "main": "scripts/userScript.js",
+  "websiteURL": "https://lg.tv.twitch.tv/",
+  "main": "userScript.js",
   "author": "Owen The Kid",
   "keys": [
     "MediaPlayPause",
