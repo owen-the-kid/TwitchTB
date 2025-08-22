@@ -8,8 +8,18 @@ Twitch with adblocker for tizenbrew
 
 ## Features
 
-* Adblocker Powered by Ublock
-* Thats all...
+* Hides and mutes ads
+* Automatically claims community points during streams
+* View sub-only VODs without a subscription
+* Integrated support for 7TV emotes
+* Disable animations to improve performance
+* You can now navigate through the top navigation buttons using the number keys 1 to 4:
+1️⃣ — Home
+2️⃣ — Following
+3️⃣ — Browse
+4️⃣ — Search
+* Automatically reject cookies and accept mature content banner
+* Note: Configuration screen can be opened by pressing 🟩 GREEN button on the remote.
 
 ## To Do
 
@@ -20,6 +30,5 @@ Twitch with adblocker for tizenbrew
 
 open a issue on the GitHub or send me a message in the Tizenbrew Server or DM me on discord at theupsidedownshaggy 
 
-## License
-
-This project is licensed under the [GPL-3.0-only License](https://github.com/owen-the-kid/TwitchTB/blob/master/LICENSE).
+## Credits
+All Code was written by https://github.com/adamff-dev/
