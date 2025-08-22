@@ -14,10 +14,10 @@ Twitch with adblocker for tizenbrew
 * Integrated support for 7TV emotes
 * Disable animations to improve performance
 * You can now navigate through the top navigation buttons using the number keys 1 to 4:
-** 1️⃣ — Home
-** 2️⃣ — Following
-** 3️⃣ — Browse
-** 4️⃣ — Search
+* 1️⃣ — Home
+* 2️⃣ — Following
+* 3️⃣ — Browse
+* 4️⃣ — Search
 * Automatically reject cookies and accept mature content banner
 * Note: Configuration screen can be opened by pressing 🟩 GREEN button on the remote.
 
