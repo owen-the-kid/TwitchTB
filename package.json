@@ -1,11 +1,11 @@
 {
   "name": "@owen-the-kid/twitchtb",
   "appName": "TwitchTB",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Twitch app with adblocker (original code by @adamff-dev)",
   "packageType": "mods",
   "websiteURL": "https://lg.tv.twitch.tv/",
-  "main": "userScript.js",
+  "main": "dist/bundle.user.js",
   "author": "Owen The Kid",
   "keys": [
     "MediaPlayPause",
@@ -26,6 +26,10 @@
   },
   "repository": {
     "url": "https://github.com/owen-the-kid/TwitchTB"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.53.2",
+    "rollup-plugin-import-css": "^4.1.2"
   }
 }
-

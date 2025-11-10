@@ -1,0 +1,123 @@
+.taf-ui-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-height: 85vh;
+  background: rgba(20, 20, 25, 0.95);
+  color: #fff;
+  border-radius: 16px;
+  border: 1px solid #9147ff; /* Twitch purple */
+  padding: 24px;
+  font-size: 2rem;
+  z-index: 10000;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.taf-ui-container h1 {
+  margin: 0 0 12px 0;
+  color: #9147ff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.taf-subtitle {
+  margin: 0 0 24px 0;
+  color: #adadb8;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.taf-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.taf-ui-container label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.taf-ui-container input[type='checkbox'] {
+  width: 35px;
+  height: 35px;
+  accent-color: #9147ff;
+  cursor: pointer;
+}
+
+/* Estilo para el foco en los checkboxes */
+.taf-ui-container input[type='checkbox']:focus {
+  outline: 2px solid #b583ff;
+  outline-offset: 2px;
+}
+
+.taf-footer {
+  margin-top: auto;
+  text-align: center;
+  color: #adadb8;
+  font-size: 1.5rem;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.github-icon {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  filter: invert(100%);
+  margin-left: 5px;
+  margin-right: 4px;
+}
+
+.taf-notification-container {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 16pt;
+  z-index: 1200;
+}
+
+.taf-notification-container .message {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1em;
+  margin: 0.5em;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  line-height: 1;
+  float: right;
+}
+
+.taf-notification-container .message-success {
+  border-right: 10px solid rgba(50, 255, 50, 0.3);
+}
+
+.taf-notification-container .message-error {
+  border-right: 10px solid rgba(255, 50, 50, 0.4);
+}
+
+.taf-notification-container .message-info {
+  border-right: 10px solid rgba(50, 150, 255, 0.4);
+}
+
+.taf-notification-container .message-hidden {
+  opacity: 0;
+  margin: 0 0.5em;
+  padding: 0 1em;
+  line-height: 0;
+}
+
+.emote {
+  height: 2.6rem;
+  vertical-align: middle;
+}
