@@ -1,10 +1,10 @@
 {
   "name": "@owen-the-kid/twitchtb",
   "appName": "TwitchTB",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Twitch app with adblocker (original code by @adamff-dev)",
   "packageType": "mods",
-  "websiteURL": "https://lg.tv.twitch.tv/",
+  "websiteURL": "https://samsung.tv.twitch.tv/",
   "main": "dist/bundle.user.js",
   "author": "Owen The Kid",
   "keys": [
